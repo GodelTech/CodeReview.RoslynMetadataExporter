@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public class AnalyzerFileFilter : IAnalyzerFileFilter
     {

@@ -3,17 +3,17 @@ using System.IO;
 using System.Threading.Tasks;
 using CommandLine;
 using CommandLine.Text;
+using GodelTech.CodeReview.RoslynMetadataExporter.Models;
+using GodelTech.CodeReview.RoslynMetadataExporter.Options;
+using GodelTech.CodeReview.RoslynMetadataExporter.Services;
+using GodelTech.CodeReview.RoslynMetadataExporter.Services.Diagnostics;
+using GodelTech.CodeReview.RoslynMetadataExporter.Services.NuGet;
+using GodelTech.CodeReview.RoslynMetadataExporter.Utils;
 using Microsoft.CodeAnalysis;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using ReviewItEasy.RoslynMetadataExporter.Models;
-using ReviewItEasy.RoslynMetadataExporter.Options;
-using ReviewItEasy.RoslynMetadataExporter.Services;
-using ReviewItEasy.RoslynMetadataExporter.Services.Diagnostics;
-using ReviewItEasy.RoslynMetadataExporter.Services.NuGet;
-using ReviewItEasy.RoslynMetadataExporter.Utils;
 
-namespace ReviewItEasy.RoslynMetadataExporter
+namespace GodelTech.CodeReview.RoslynMetadataExporter
 {
     class Program
     {

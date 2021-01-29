@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
+using GodelTech.CodeReview.RoslynMetadataExporter.Services.Diagnostics;
+using GodelTech.CodeReview.RoslynMetadataExporter.Services.NuGet;
 using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.Extensions.Logging;
-using ReviewItEasy.RoslynMetadataExporter.Services.Diagnostics;
-using ReviewItEasy.RoslynMetadataExporter.Services.NuGet;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public class NuGetPackageProcessor : INuGetPackageProcessor
     {

@@ -1,6 +1,6 @@
 using Microsoft.CodeAnalysis.Diagnostics;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public class PackageDetails
     {

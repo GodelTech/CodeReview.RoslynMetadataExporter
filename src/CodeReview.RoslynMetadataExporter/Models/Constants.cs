@@ -1,4 +1,4 @@
-﻿namespace ReviewItEasy.RoslynMetadataExporter.Models
+﻿namespace GodelTech.CodeReview.RoslynMetadataExporter.Models
 {
     internal static class Constants
     {

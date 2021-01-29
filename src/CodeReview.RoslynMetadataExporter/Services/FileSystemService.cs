@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public class FileSystemService : IFileSystemService
     {

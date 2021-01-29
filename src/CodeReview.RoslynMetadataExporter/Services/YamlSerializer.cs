@@ -2,7 +2,7 @@
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public class YamlSerializer : IYamlSerializer
     {

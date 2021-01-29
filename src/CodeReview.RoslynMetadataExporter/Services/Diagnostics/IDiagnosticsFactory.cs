@@ -1,6 +1,6 @@
 using Microsoft.CodeAnalysis.Diagnostics;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.Diagnostics
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.Diagnostics
 {
     public interface IDiagnosticsFactory
     {

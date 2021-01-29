@@ -2,7 +2,7 @@
 using System.IO.Compression;
 using System.Linq;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.NuGet
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.NuGet
 {
     public class PackageMetadataProvider : IPackageMetadataProvider
     {

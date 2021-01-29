@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Extensions.Logging;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.NuGet
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.NuGet
 {
     public class PackageManager : IPackageManager
     {

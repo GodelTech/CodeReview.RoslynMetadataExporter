@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Linq;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public class AnalyzerAssemblyPathResolver : IAnalyzerAssemblyPathResolver
     {

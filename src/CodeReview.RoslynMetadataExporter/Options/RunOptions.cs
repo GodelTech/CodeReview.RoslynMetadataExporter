@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Options
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Options
 {
     [Verb("run", true, HelpText = "Runs workflow defined by manifest file.")]
     public class RunOptions

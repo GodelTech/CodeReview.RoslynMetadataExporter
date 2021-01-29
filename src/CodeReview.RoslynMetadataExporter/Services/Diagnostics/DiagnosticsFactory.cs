@@ -5,7 +5,7 @@ using System.Reflection;
 using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.Diagnostics
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.Diagnostics
 {
     public class DiagnosticsFactory : IDiagnosticsFactory
     {

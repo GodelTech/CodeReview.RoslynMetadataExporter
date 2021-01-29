@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services
 {
     public interface IResultStorage
     {

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.NuGet
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.NuGet
 {
     public interface IMetadataReader
     {

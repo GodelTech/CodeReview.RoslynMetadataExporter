@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.Extensions.Logging;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Utils
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Utils
 {
     public class SimplifiedConsoleLoggerProvider : ILoggerProvider
     {

@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.NuGet
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.NuGet
 {
     public class MetadataReader : IMetadataReader
     {

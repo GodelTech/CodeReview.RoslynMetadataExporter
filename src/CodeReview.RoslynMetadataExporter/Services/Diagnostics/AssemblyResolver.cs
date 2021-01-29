@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using Microsoft.Extensions.Logging;
 
-namespace ReviewItEasy.RoslynMetadataExporter.Services.Diagnostics
+namespace GodelTech.CodeReview.RoslynMetadataExporter.Services.Diagnostics
 {
     /// <summary>
     /// Adds additional search directories for assembly resolution
