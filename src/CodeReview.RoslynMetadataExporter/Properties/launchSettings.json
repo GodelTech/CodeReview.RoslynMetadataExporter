@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "ReviewItEasy.RoslynMetadataExporter": {
+    "CodeReview.RoslynMetadataExporter": {
       "commandName": "Project",
       "commandLineArgs": "run -p SonarAnalyzer.CSharp -o result.yaml -j"
     }

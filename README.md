@@ -1,16 +1,13 @@
 # Introduction 
 
-How to build image 
-
-docker build -t godeltech/codereview.roslyn-metadata-exporter:0.0.1 -f src/CodeReview.RoslynMetadataExporter/Dockerfile ./src
-docker image tag godeltech/codereview.roslyn-metadata-exporter:0.0.1 godeltech/codereview.roslyn-metadata-exporter:latest
-docker push godeltech/codereview.roslyn-metadata-exporter:latest
-docker push godeltech/codereview.roslyn-metadata-exporter:0.0.1
-
-Run:
-
-docker run -v "/d/temp:/result"   --rm godeltech/codereview.roslyn-metadata-exporter run -p SonarAnalyzer.CSharp -o /result/result.yaml -j
-
-Debug:
-
-docker run -v "/d/temp:/result" -it --rm  --entrypoint /bin/bash  godeltech/codereview.roslyn-metadata-exporter
+#### run
+Runs workflow defined by manifest file
+<pre>
+> dotnet CodeReview.RoslynMetadataExporter.dll run -p SonarAnalyzer.CSharp -o result.yaml -j
+</pre>
+| Agruments     | Key       | Required   | Type      | Description agrument      |
+| ------------- | --------- | ---------- | --------- | ------------------------- |
+| --package     | -p        | true       | string    | NuGet package identifier  |
+| --version     | -v        | false      | string    | NuGet package version     |
+| --output      | -o        | true       | string    | Output file path          |
+| --json        | -j        | false      | bool      | Specifies if JSON or YAML output must be used |
