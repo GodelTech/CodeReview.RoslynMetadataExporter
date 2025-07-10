@@ -7,7 +7,7 @@ RUN dotnet restore "CodeReview.RoslynMetadataExporter/CodeReview.RoslynMetadataE
 COPY CodeReview.RoslynMetadataExporter/. ./CodeReview.RoslynMetadataExporter/
 RUN dotnet publish ./CodeReview.RoslynMetadataExporter/CodeReview.RoslynMetadataExporter.csproj -c Release -o ./CodeReview.RoslynMetadataExporter/out
 
-FROM mcr.microsoft.com/dotnet/runtime:5.0 AS runtime
+FROM mcr.microsoft.com/dotnet/runtime:9.0 AS runtime
 
 RUN apt-get update
 RUN apt-get --yes install nuget
